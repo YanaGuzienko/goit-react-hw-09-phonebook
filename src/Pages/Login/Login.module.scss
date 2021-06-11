@@ -1,0 +1,63 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(105, 117, 117);
+  // justify-content: center;
+}
+
+.group {
+  margin-bottom: 12px;
+}
+
+.lable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(77, 95, 95);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.button {
+  padding: 4px 6px 4px 6px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  // width: 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(135, 224, 150);
+  border: 2px solid rgb(90, 230, 78);
+  box-shadow: 0px 0px 2px 2px rgb(148, 139, 145);
+  font-weight: 400;
+  color: rgb(13, 61, 61);
+}
+
+.input {
+  display: block;
+  width: 400px;
+  color: rgb(121, 121, 121);
+  padding: 6px 0 6px 6px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 2px solid rgb(98, 201, 226);
+  box-shadow: 0px 0px 2px 2px rgb(148, 139, 145);
+}
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: rgb(197, 186, 186);
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgb(197, 186, 186);
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgb(197, 186, 186);
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: rgb(197, 186, 186);
+}

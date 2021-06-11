@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filter {
+  margin-top: 8px;
+  color: rgb(77, 95, 95);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.input {
+  display: block;
+  width: 400px;
+  color: rgb(88, 83, 83);
+  padding: 6px 0 6px 6px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 2px solid rgb(98, 201, 226);
+  box-shadow: 0px 0px 2px 2px rgb(148, 139, 145);
+}

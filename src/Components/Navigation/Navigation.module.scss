@@ -1,0 +1,55 @@
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.item {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  color: #0d3d3d;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid rgb(121, 207, 99);
+}
+
+.link {
+  padding: 8px;
+  margin-right: 30px;
+  border: 2px solid rgb(98, 201, 226);
+  box-shadow: 0px 0px 2px 2px rgb(148, 139, 145);
+  border-radius: 5px;
+  background-color: rgb(247, 196, 227);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  box-shadow: 0px 0px 4px 4px rgb(148, 139, 145);
+}
+
+.active {
+  background-color: rgb(218, 250, 223);
+}
+
+.button {
+  padding: 8px;
+  border: 2px solid rgb(98, 201, 226);
+  box-shadow: 0px 0px 2px 2px rgb(148, 139, 145);
+  border-radius: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  color: #0d3d3d;
+  background-color: rgb(235, 156, 156);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 0px 0px 4px 4px rgb(148, 139, 145);
+  background-color: rgb(255, 135, 126);
+}

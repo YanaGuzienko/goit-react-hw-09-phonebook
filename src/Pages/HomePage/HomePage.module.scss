@@ -1,0 +1,33 @@
+.container {
+  padding: 20px 10px 20px 10px;
+}
+
+.text {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #0d3d3d;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.linkLogin {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(32, 133, 37);
+}
+
+.linkRegistr {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(122, 18, 100);
+}
+
+.linkRegistr:hover,
+.linkRegistr:focus {
+  border-bottom: 2px solid rgb(122, 18, 100);
+}
+
+.linkLogin:hover,
+.linkLogin:focus {
+  border-bottom: 2px solid rgb(32, 133, 37);
+}
