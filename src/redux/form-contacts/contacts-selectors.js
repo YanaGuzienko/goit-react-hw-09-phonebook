@@ -10,4 +10,4 @@ const filterContacts = createSelector([getContacts, getFilterContacts], (contact
 });
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default { getContacts, filterContacts };
+export default { getContacts, getFilterContacts, filterContacts };
